@@ -15,6 +15,7 @@ export const Content = styled.div`
 
   button {
     font-size: 1rem;
+    font-weight: 500;
     color: #fff;
     background-color: var(--blue-light);
     border: 0;
@@ -26,5 +27,16 @@ export const Content = styled.div`
     &:hover {
       filter: brightness(0.9);
     }
+  }
+`;
+
+export const Logo = styled.div`
+  display: flex;
+  align-items: center;
+
+  span {
+    font-size: 1.25rem;
+    margin-left: 1rem;
+    color: #fff;
   }
 `;
